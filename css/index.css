@@ -365,6 +365,9 @@ section .title::after{
 .services .serv-content .card .crimson{
     color: crimson;
 }
+.services .serv-content .card .frenchviolet{
+    color: #6a26cd;   
+}
 
 .services .serv-content .card .frenchviolet:hover{
     color: #fff;
