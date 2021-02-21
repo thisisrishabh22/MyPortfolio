@@ -319,7 +319,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #100f10;
 }
 .services .title::before,
 .teams .title::before{
@@ -343,6 +343,14 @@ section .title::after{
 .services .serv-content .card:hover{
     background: #37b9f1;
 }
+.services .serv-content .card.card-crimson:hover{
+    background: crimson;
+    color: #fff;
+}
+.services .serv-content .card.card-frenchviolet:hover{
+    background: #6a26cd;
+}
+
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
@@ -353,6 +361,13 @@ section .title::after{
     font-size: 50px;
     color: #37b9f1;
     transition: color 0.3s ease;
+}
+.services .serv-content .card .crimson{
+    color: crimson;
+}
+
+.services .serv-content .card .frenchviolet:hover{
+    color: #fff;
 }
 .services .serv-content .card:hover i{
     color: #fff;
